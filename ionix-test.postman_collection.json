@@ -1,0 +1,506 @@
+{
+	"id": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+	"name": "ionix-test",
+	"description": "Esta es una collection en postman para tener referencia de los request que deben enviarse al momento de hacer las pruebas una vez levantado el software.",
+	"order": [],
+	"folders": [
+		{
+			"name": "drug",
+			"description": "",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"order": [
+				"8a3e437a-a219-70e4-5f6c-8e262207958e",
+				"63420952-6e4d-8e7a-5557-41afebbde0d6",
+				"73ff58dc-911f-7e53-58fd-d6897ffea4a9",
+				"b1943e2e-ced6-0086-d81f-e6aae0d31b23",
+				"3fa81b05-1eed-a35d-63c6-6d8f575f4dc0"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "98f441db-47b8-b72b-b334-a55ce35609e2"
+		},
+		{
+			"name": "user",
+			"description": "",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"order": [
+				"504f7425-8420-67b5-ff53-8315889afbbd",
+				"35a2318b-c4c9-0579-11b9-b3ca7ce4fa55"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "1814f232-795c-aa16-1581-bb3745a6a9c9"
+		},
+		{
+			"name": "vaccination",
+			"description": "",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"order": [
+				"62f897c1-6aba-8b61-8939-e4cfb7bace38",
+				"9852a037-2bba-15af-b23c-eda19c29c0a4",
+				"fe51cb3f-2041-0e9c-e09d-29ae829bc21c",
+				"5645fdc4-07a0-4833-762f-a81501d01329",
+				"39f13643-d38d-90d3-3b70-e590bbd92db2"
+			],
+			"owner": 0,
+			"folders_order": [],
+			"id": "e1448712-d220-e8b3-0421-5adb200c467b"
+		}
+	],
+	"folders_order": [
+		"e1448712-d220-e8b3-0421-5adb200c467b",
+		"98f441db-47b8-b72b-b334-a55ce35609e2",
+		"1814f232-795c-aa16-1581-bb3745a6a9c9"
+	],
+	"timestamp": 1671376457491,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "35a2318b-c4c9-0579-11b9-b3ca7ce4fa55",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/signup",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/signup",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376747315,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1814f232-795c-aa16-1581-bb3745a6a9c9",
+			"rawModeData": "{\n\t\"name\": \"Oscar\",\n\t\"email\": \"oskr96.oz@gmail.com\",\n\t\"password\": \"123456\"\n}"
+		},
+		{
+			"id": "39f13643-d38d-90d3-3b70-e590bbd92db2",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/vaccination",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/vaccination",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376634135,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "e1448712-d220-e8b3-0421-5adb200c467b",
+			"rawModeData": "{\n\t\"name\": \"Dosis de refuerzo\",\n\t\"drug\": { \"id\": 2 },\n\t\"dose\": 1,\n\t\"date\": \"2022-12-17\"\n}"
+		},
+		{
+			"id": "3fa81b05-1eed-a35d-63c6-6d8f575f4dc0",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk1MDY5LCJleHAiOjE2NzEyOTg2Njl9.ycEIN_KoTFz7hL5ek8Pdmtl0TPmGmIsxg6s2o5d8zUQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk1MDY5LCJleHAiOjE2NzEyOTg2Njl9.ycEIN_KoTFz7hL5ek8Pdmtl0TPmGmIsxg6s2o5d8zUQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/drug/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/drug/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376718560,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "98f441db-47b8-b72b-b334-a55ce35609e2",
+			"rawModeData": "{\n\t\"name\": \"Paracetamol\",\n\t\"minDose\": 2,\n\t\"maxDose\": 3,\n\t\"approved\": \"true\",\n\t\"availableAt\": \"2022-11-30\"\n}"
+		},
+		{
+			"id": "504f7425-8420-67b5-ff53-8315889afbbd",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}//login",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}//login",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376570401,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "1814f232-795c-aa16-1581-bb3745a6a9c9",
+			"rawModeData": "{\n\t\"name\": \"Oscar\",\n\t\"email\": \"oskr96.oz@gmail.com\",\n\t\"password\": \"123456\"\n}"
+		},
+		{
+			"id": "5645fdc4-07a0-4833-762f-a81501d01329",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/vaccination/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "PUT",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/vaccination/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376612225,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "e1448712-d220-e8b3-0421-5adb200c467b",
+			"rawModeData": "{\n\t\"name\": \"Dosis de refuerzo editada\",\n\t\"drug\": { \"id\": 1 },\n\t\"dose\": 1,\n\t\"date\": \"2022-12-17\"\n}"
+		},
+		{
+			"id": "62f897c1-6aba-8b61-8939-e4cfb7bace38",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:3000/vaccination/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/vaccination/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376512309,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"isFromCollection": true,
+			"collectionRequestId": "62f897c1-6aba-8b61-8939-e4cfb7bace38",
+			"folder": "e1448712-d220-e8b3-0421-5adb200c467b",
+			"rawModeData": "{\n\t\"name\": \"Dosis de refuerzo editada\",\n\t\"drug\": { \"id\": 1 },\n\t\"dose\": 1,\n\t\"date\": \"2022-12-17\"\n}"
+		},
+		{
+			"id": "63420952-6e4d-8e7a-5557-41afebbde0d6",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/drug",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/drug",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376689061,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "98f441db-47b8-b72b-b334-a55ce35609e2",
+			"rawModeData": ""
+		},
+		{
+			"id": "73ff58dc-911f-7e53-58fd-d6897ffea4a9",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk1MDY5LCJleHAiOjE2NzEyOTg2Njl9.ycEIN_KoTFz7hL5ek8Pdmtl0TPmGmIsxg6s2o5d8zUQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk1MDY5LCJleHAiOjE2NzEyOTg2Njl9.ycEIN_KoTFz7hL5ek8Pdmtl0TPmGmIsxg6s2o5d8zUQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/drug/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/drug/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376703113,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "98f441db-47b8-b72b-b334-a55ce35609e2",
+			"rawModeData": ""
+		},
+		{
+			"id": "8a3e437a-a219-70e4-5f6c-8e262207958e",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/drug",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/drug",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376558851,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "98f441db-47b8-b72b-b334-a55ce35609e2",
+			"rawModeData": ""
+		},
+		{
+			"id": "9852a037-2bba-15af-b23c-eda19c29c0a4",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk1MDY5LCJleHAiOjE2NzEyOTg2Njl9.ycEIN_KoTFz7hL5ek8Pdmtl0TPmGmIsxg6s2o5d8zUQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk1MDY5LCJleHAiOjE2NzEyOTg2Njl9.ycEIN_KoTFz7hL5ek8Pdmtl0TPmGmIsxg6s2o5d8zUQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/vaccination",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/vaccination",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376581311,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "e1448712-d220-e8b3-0421-5adb200c467b",
+			"rawModeData": ""
+		},
+		{
+			"id": "b1943e2e-ced6-0086-d81f-e6aae0d31b23",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk1MDY5LCJleHAiOjE2NzEyOTg2Njl9.ycEIN_KoTFz7hL5ek8Pdmtl0TPmGmIsxg6s2o5d8zUQ\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk1MDY5LCJleHAiOjE2NzEyOTg2Njl9.ycEIN_KoTFz7hL5ek8Pdmtl0TPmGmIsxg6s2o5d8zUQ",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/drug/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/drug/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376711188,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "98f441db-47b8-b72b-b334-a55ce35609e2",
+			"rawModeData": "{\n\t\"name\": \"Paracetamol\",\n\t\"minDose\": 2,\n\t\"maxDose\": 3,\n\t\"approved\": \"true\",\n\t\"availableAt\": \"2022-11-30\"\n}"
+		},
+		{
+			"id": "fe51cb3f-2041-0e9c-e09d-29ae829bc21c",
+			"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9za3I5Ni5vekBnbWFpbC5jb20iLCJpZCI6MSwibmFtZSI6Ik9zY2FyIiwiaWF0IjoxNjcxMjk5MzAzLCJleHAiOjE2NzEzMDI5MDN9.WF3pAJ22r1DbpzzzOlEZuTScldblsLYBYBSPd-nMP78",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "{{url-backend-ionix}}/vaccination/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "DELETE",
+			"collectionId": "c9fddb6d-0a19-d57d-e4fc-86ae79bce745",
+			"data": [],
+			"dataMode": "raw",
+			"name": "{{url-backend-ionix}}/vaccination/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1671376603095,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"folder": "e1448712-d220-e8b3-0421-5adb200c467b",
+			"rawModeData": "{\n\t\"name\": \"Dosis de refuerzo editada\",\n\t\"drug\": { \"id\": 1 },\n\t\"dose\": 1,\n\t\"date\": \"2022-12-17\"\n}"
+		}
+	]
+}
