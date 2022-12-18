@@ -89,16 +89,6 @@ dose: Es un número entero que representa la dosis por utilizar en la vacunació
 date: Es un valor de tipo datetime que indica la fecha y hora de la vacunación.
 
 
-## Support
+## POSTMAN COLLECTION
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Puedes obtener una guia de como realizar los request en una coleccion de postman que se encuentra en el directorio raiz del proyecto
